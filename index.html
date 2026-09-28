@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rating Component</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+          integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <!--Section 1 : Rating Summary -->
+    
     <div class="container">
         <div class="card bg-light rounded-4 border-0 mt-5 shadow-lg">
             <div class="card-body">
+             <!--Section 1 : Review Rating Summary -->
              <div class="row p-5">
                 <div class="col-7">
                     <h2>What others think about the product</h2>
@@ -26,10 +29,19 @@
                     </div>
                 </div>
              </div>
+             <!--Section 2 : Search Review -->
+             <div class="row">
+                <div class="col-12">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text rounded-start-5" id="inputGroup-sizing-lg"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" placeholder="Search Reviews" class="form-control rounded-end-5" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                </div>
+             </div>
             </div>
         </div>
     </div>
-    <!--Section 2 : Summary Review -->
+    
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
